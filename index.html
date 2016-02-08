@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MyApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Starwars Display</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+</head>
+
+<body ng-controller="MainController">
+
+    <h1 class="text-center">Star Wars</h1>
+    <br>
+    <header class="text-center">{{target.title}}</header>
+    <br>
+    <h1 class="text-center">{{target.opening_crawl}}</h1>
+    <br>
+    <p class="text-center">Director: {{target.director}}</p>
+    <br>
+    <p class="text-center">Producer:{{target.producer}}</p>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
